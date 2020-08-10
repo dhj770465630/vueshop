@@ -1,2 +1,8 @@
 
 body,html,#app{margin:0;padding:0;}
+
+.mbx-nav{margin-bottom:15px;font-size:12px;}
+.mbx-nav .el-card{box-shadow:0 1px 1px rgba(0,0，0，0.15) !important}
+.user-tab{margin-top: 20px;font-size:14px;}
+
+.fyeq-d{margin-top:20px;}
