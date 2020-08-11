@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 // 导入弹窗提示
-import { Message, Form, FormItem, Input, Button, Header, Container, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb , BreadcrumbItem ,Card , Row ,Col , Table , TableColumn, Switch ,Tooltip ,Pagination ,Dialog , MessageBox} from 'element-ui'
+import { Message, Form, FormItem, Input, Button, Header, Container, Aside, Main, Menu, Submenu, MenuItem, Breadcrumb , BreadcrumbItem ,Card , Row ,Col , Table , TableColumn, Switch ,Tooltip ,Pagination ,Dialog , MessageBox ,Tag ,Tree} from 'element-ui'
 
 Vue.use(Form)
 Vue.use(FormItem)
@@ -25,6 +25,8 @@ Vue.use(Switch)
 Vue.use(Tooltip)
 Vue.use(Pagination)
 Vue.use(Dialog)
+Vue.use(Tag)
+Vue.use(Tree)
 
 Vue.prototype.$message = Message
 Vue.prototype.$confirm = MessageBox.confirm
